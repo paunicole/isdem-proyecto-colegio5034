@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="icon" href="images/icono.jpg">
+
+    <link rel="stylesheet"href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <nav>
+        <img src="images/icono.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"> </i>
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="about.html"> Nuestro colegio </a></li>
+                <li><a href="downloads.html"> Descargas </a></li>
+                <li><a class="active" href="contact.html"> Contacto </a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="about-home">
+        <h2>Contacto</h2>   
+    </section>
+
+    <section id="contact">
+        <div class="getin">
+            <h2>Nuestros Datos</h2>
+            <p>Nuestros Datos.</p>
+
+            <div class="getin-details">
+                <h3>Ubicación</h3>
+                <div>
+                    <i class="far fa-home get"></i>
+                    <p>Republica de Siria S/N, Campo Santo, Salta</p>
+                </div>
+                <h3>Teléfono</h3>
+                <div>
+                    <i class="fas fa-phone-alt get"></i>
+                    <p>(+54) 387 490-3121</p>
+                </div>
+                <h3>Correo</h3>
+                <div>
+                    <i class="fal fa-envelope-open-text get"></i>
+                    <p>col5034@gmail.com</p>
+                </div>
+                <h3>Nuestras Redes Sociales</h3>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h4>Formulario de Contacto</h4>
+            <p>¿CÓMO PODEMOS AYUDARTE? Dejanos tu consulta en el formulario o comunicate con nosotros a cualquiera de nuestros teléfonos.</p>
+            <div class="form-row">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="form-col">
+                <input type="text" placeholder="Tema" >
+            </div>
+            <div class="form-col">
+                <textarea name="" id="" cols="30" rows="8" placeholder="¿Como podemos ayudarte?"></textarea>
+            </div>
+            <div class="form-col">
+                <button>Enviar mensaje</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map-->
+
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.312987433809!2d-65.10359915013534!3d-24.681765296020966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bcb86b356b989%3A0xf86031434d8f8e50!2sColegio%20Secundario%20Doctor%20Enrique%20Cornejo%205034!5e0!3m2!1ses-419!2sar!4v1666567791952!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+   <!-- footer -->
+
+   <footer>
+    <div class="footer-col">
+        <h3>Contacto</h3>
+        <li><a href="https://goo.gl/maps/buRcKEJex6ung89r7">B° Libertad, Campo Santo, Salta</a></li>
+        <li><a href="">col5034@gmail.com</a></li>
+        <li><a href="">Llámanos: 387 490-3121</a></li>
+    </div>
+    <div class="footer-col">
+        <h3>Redes Sociales</h3>
+        <li><a href="https://www.facebook.com/enriquecornejo5034">Facebook</a></li> 
+        <li><a href="https://www.instagram.com/colegio5034">Instagram</a></li> 
+    </div>
+    <div class="footer-col">
+        <h3>Nuestro colegio</h3>
+        <li><a href="about.html">Sobre el colegio</a></li> 
+        <li><a href="nuestro-equipo.html">Nuestro equipo</a></li> 
+    </div>
+
+    <div class="footer-col">
+        <h3>Utilidades</h3>
+        <li><a href="downloads.html">Descargas</a></li> 
+    </div>
+
+    <div class="copyright">
+        <p>Copyright 2023 Todos los derechos reservados</p>
+        <div class="pro-links">
+            <p>Desarrollado por <a href="https://github.com/paunicole" target="_blank">Nicole</a> y <a href="https://github.com/marialourdesrodriguez" target="_blank">Lourdes</a></p>
+     </div>
+    </div>
+</footer>
+
+   <script>
+       $('#menu-btn').click(function(){
+           $('nav .navigation ul').addClass('active')
+       });
+       $('#menu-close').click(function(){
+           $('nav .navigation ul').removeClass('active')
+       });
+   </script>
+    
+</body>
+
+</html> 
