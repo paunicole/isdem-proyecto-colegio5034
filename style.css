@@ -97,6 +97,18 @@ nav .navigation ul li a:hover {
     color: #fff;
 }
 
+nav .navigation ul li .resalt{
+    color: white;
+    background-color: rgb(100, 21, 21);
+    border-radius: 8px;
+    padding: 5px;
+} 
+
+nav .navigation ul li .resalt:hover{
+    background-color: rgb(204, 40, 48);
+    color: white;
+}
+
 /* ================= Home ================ */
 
 #home {
@@ -685,6 +697,21 @@ footer .copyright a:hover {
     color: #fff;
 }
 
+#contact .form .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+#contact .form .form-container .sec img {
+    width: 300px;
+}
+
+#contact .form .form-container .sec {
+    margin: 20px;
+}
+
 /* -------Map ----------*/
 #map{
     width: 100%;
@@ -695,6 +722,20 @@ footer .copyright a:hover {
 #map iframe{
     width: 100%;
     height: 100%;
+}
+
+/* ------- Login ----------*/
+.image-login img {
+    width: 72%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-components {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ============ Tablet Phones ================= */
